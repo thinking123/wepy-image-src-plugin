@@ -17,7 +17,7 @@ exports = module.exports = function wepyImageSrcPlugin(options) {
           if (!ImageExtReg.test(expr)) {
             expr = `${expr}.${ext}`;
           }
-          expr = `${baseImageUrl}${expr}`;
+          expr = `${baseImageUrl}${encodeURIComponent(expr)}`;
           config.expr = expr;
         }
 

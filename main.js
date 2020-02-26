@@ -20,7 +20,7 @@ exports = module.exports = function wepyImageSrcPlugin(options) {
             expr = "".concat(expr, ".").concat(ext);
           }
 
-          expr = "".concat(baseImageUrl).concat(expr);
+          expr = "".concat(baseImageUrl).concat(encodeURIComponent(expr));
           config.expr = expr;
         }
 
