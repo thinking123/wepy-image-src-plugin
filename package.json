@@ -1,5 +1,5 @@
 {
-  "name": "wepy-image-src-plugin",
+  "name": "wepy-image-src-pre-prefix-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
